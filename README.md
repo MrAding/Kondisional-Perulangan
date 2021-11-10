@@ -1,9 +1,8 @@
 ```
-NAMA  : Ahmad Fadhiil Muttaqin
-NIM   : 312010615
-Kelas : TI.20.A1
+Nama    : Ahmad Fadhiil Muttaqin
+Nim     : 312010615
+Kelas   : TI.21.A1
 ```
-# ==============================
 
 # Kondisional & Perulangan
 
@@ -14,48 +13,53 @@ Kelas : TI.20.A1
 
 # Codingan
 ```
-#include <iostream>
-using namespace std;
-int main() {
-	
-	cout<<"PROGRAM C++ BILANGAN TERKECIL DAN TERBESAR"<<endl;
-	int terkecil, terbesar, bil1, bil2, bil3;
-	cout<<"\nMasukan Bilangan ke-1 : ";
-	cin>>bil1;
-	cout<<"Masukan Bilangan ke-2 : ";
-	cin>>bil2;
-	cout<<"Masukan Bilangan ke-3 : ";
-	cin>>bil3;
-	
-	//Menentukan nilai terkecil
-	terkecil=bil1;
-	
-	if (bil2 < terkecil){
-		terkecil=bil2;
-	}
-	if (bil3 < terkecil){
-		terkecil=bil3;
-	}
-	
-	//Menentukan nilai terbesar
-	terbesar=bil1;
-	
-	if (bil2 > terbesar){
-		terbesar=bil2;
-	}
-	if (bil3 > terbesar){
-		terbesar=bil3;
-	}
-	
-	cout<<"\nNilai Terkecil adalah "<<terkecil<<endl;
-	cout<<"Nilai Terbesar adalah "<<terbesar<<endl;
 
-	return 0;	
-}
+# membuat judul program
+print(' ')
+print('Program menentukan Nilai Terbesar dari 2 bilangan')
+
+# input bilangan
+print(' ')
+a = int(input("masukan bilangan pertama: "))
+b = int(input("masukan bilangan kedua: "))
+
+# Menentukan Nilai Bilangan  dengan if else
+print(' ')
+if a > b:
+    maks = a
+else:
+    maks = b
+# mencetak nilai maksimum
+print('Nilai Terbesar adalah %d' % maks)
+
 ```
+<img width="705" alt="Nilai Terbesar" src="https://user-images.githubusercontent.com/93661771/141132238-878a2dd9-7b5e-4e42-ad42-c83daa57194b.PNG">
+
+# Hasil Output Codingan Nilai Terbesar
+<img width="960" alt="output nilai terbesar" src="https://user-images.githubusercontent.com/93661771/141132533-ccab2595-a039-44ce-896b-1f2ee26d154d.PNG">
 
 *Latihan 2
 1. Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
+
+# Codingan
+```
+def bubble_sort(array):
+    n = len(array) # jumlah list
+    # perulangan pertama
+    for i in range(n):
+        # perulangan kedua
+        for j in range(n - i - 1):
+            # bandingkan masing" elemen
+            if array[j] > array[j + 1]:
+                # jika lebih besar, tukar.
+                array[j], array[j + 1] = array[j + 1], array[j]
+    return array
+
+print(' ')
+unordered = [5, 3, 4, 8, 1, 2, 9, 6]
+print(bubble_sort(unordered))
+```
+
 
 
 # Lab 3 : Perulangan
@@ -65,21 +69,21 @@ int main() {
 
 # Codingan
 ```
-#include <iostream>
-
-using namespace std;
-
-
-main(){
-    int a,b;
-    for (a=1; a<=10; a++){
-        for (b=1; b<=10; b++){
-            cout<<a*b;
-        }
-        cout<<endl;
-    }
-}
+print(list(range(10)))
+print(list(range(1, 11)))
+print(list(range(2, 12)))
+print(list(range(3, 13)))
+print(list(range(4, 14)))
+print(list(range(5, 15)))
+print(list(range(6, 16)))
+print(list(range(7, 17)))
+print(list(range(8, 18)))
+print(list(range(9, 19)))
 ```
+<img width="705" alt="Perulangan bertingkat" src="https://user-images.githubusercontent.com/93661771/141139646-f36b4280-b726-4acd-b753-7f8552c645fc.PNG">
+
+# Hasil Output Codingan
+<img width="808" alt="output perulangan bertingkat" src="https://user-images.githubusercontent.com/93661771/141139750-7bed1b34-3613-4f7a-83bf-890a10bef541.PNG">
 
 *Latihan 2
 1. Tampilkan n bilangan acak yang lebih kecil dari 0.5.
