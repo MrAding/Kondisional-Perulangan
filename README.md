@@ -48,7 +48,8 @@ print('Total perulangan : ' + str (hitung))
 2. Buat penjelasan setiap Lab/latihannya pada file README.md
 
 # ==============================
-
-# NAMA  : Ahmad Fadhiil Muttaqin
-# NIM   : 312010615
-# Kelas : TI.20.A1
+```
+NAMA  : Ahmad Fadhiil Muttaqin
+NIM   : 312010615
+Kelas : TI.20.A1
+```
