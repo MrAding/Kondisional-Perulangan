@@ -11,6 +11,49 @@ Kelas : TI.20.A1
 
 *Latihan 1
 1. Buat program sederhada dengan input 2 buah bilangan, kemudian tentukan bilangan terbesar dari kedua bilangan tersebut menggunakan statement if.
+
+# Codingan
+```
+#include <iostream>
+using namespace std;
+int main() {
+	
+	cout<<"PROGRAM C++ BILANGAN TERKECIL DAN TERBESAR"<<endl;
+	int terkecil, terbesar, bil1, bil2, bil3;
+	cout<<"\nMasukan Bilangan ke-1 : ";
+	cin>>bil1;
+	cout<<"Masukan Bilangan ke-2 : ";
+	cin>>bil2;
+	cout<<"Masukan Bilangan ke-3 : ";
+	cin>>bil3;
+	
+	//Menentukan nilai terkecil
+	terkecil=bil1;
+	
+	if (bil2 < terkecil){
+		terkecil=bil2;
+	}
+	if (bil3 < terkecil){
+		terkecil=bil3;
+	}
+	
+	//Menentukan nilai terbesar
+	terbesar=bil1;
+	
+	if (bil2 > terbesar){
+		terbesar=bil2;
+	}
+	if (bil3 > terbesar){
+		terbesar=bil3;
+	}
+	
+	cout<<"\nNilai Terkecil adalah "<<terkecil<<endl;
+	cout<<"Nilai Terbesar adalah "<<terbesar<<endl;
+
+	return 0;	
+}
+```
+
 *Latihan 2
 1. Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
 
