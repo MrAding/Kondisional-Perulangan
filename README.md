@@ -63,6 +63,23 @@ int main() {
 *Latihan 1
 1. Buat program dengan perulangan bertingkat (nested) for yang menghasilkan output sebagai berikut:
 
+```
+#include <iostream>
+
+using namespace std;
+
+
+main(){
+    int a,b;
+    for (a=1; a<=10; a++){
+        for (b=1; b<=10; b++){
+            cout<<a*b;
+        }
+        cout<<endl;
+    }
+}
+```
+
 *Latihan 2
 1. Tampilkan n bilangan acak yang lebih kecil dari 0.5.
 2. nilai n diisi pada saat runtime
