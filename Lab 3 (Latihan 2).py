@@ -1,4 +1,3 @@
-```
 print('==== Bilangan Acak yang lebih kecil dari 0.5 ====')
 print(' ')
 import random
@@ -18,4 +17,3 @@ while jawab == "lanjutkan":
     if jawab == "Lanjutkan":
         break
 print('Total perulangan : ' + str (hitung))
-```
