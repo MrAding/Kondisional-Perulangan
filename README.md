@@ -40,6 +40,8 @@ while jawab == "lanjutkan":
         break
 print('Total perulangan : ' + str (hitung))
 ```
+# Hasil Codingan (Program)
+![hasil codingan](https://user-images.githubusercontent.com/46749500/53287636-a9dbbc80-37b1-11e9-8043-13169152b9dd.png)
 
 # Tugas Latihan 
 1. Simpan project Praktikum hari ini ke repository server.
