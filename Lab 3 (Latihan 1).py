@@ -1,4 +1,3 @@
-```
 print(list(range(10)))
 print(list(range(1, 11)))
 print(list(range(2, 12)))
@@ -9,4 +8,3 @@ print(list(range(6, 16)))
 print(list(range(7, 17)))
 print(list(range(8, 18)))
 print(list(range(9, 19)))
-```
